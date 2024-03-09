@@ -1,0 +1,67 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: ;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: ;
+    color: grey;
+}
+
+/* 主页内容样式 */
+main {
+    padding: 20px;
+}
+
+p {
+    color: black;
+}
+
+/* 页脚样式 */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: ;
+    text-align: center;
+    padding: 10px 0;
+}
+body{
+    font-family: sans-serif;
+    /*字体加粗*/
+    background-image: url("../img/dq.png");
+    /* 背景图垂直、水平均居中 */
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    /*背景覆盖窗口*/
+    background-size: auto 100%;
+}
