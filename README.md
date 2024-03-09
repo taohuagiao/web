@@ -1,2 +1,2 @@
 # web
-try to make us web
+Try to make our own website
